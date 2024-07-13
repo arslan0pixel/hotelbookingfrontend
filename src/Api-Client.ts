@@ -1,8 +1,8 @@
 import { userRegisterData } from "./pages/Register";
 import { signInFormData } from "./pages/SignIn";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
-import {HotelSearchResponse, HotelType, PaymentIntentResponse} from  "../../backend/src/shared/types"
-import {UserType} from "../../backend/src/shared/types"
+import {HotelSearchResponse, HotelType, PaymentIntentResponse} from "./Types";
+import { UserType } from "./Types";
 import { BookingFormData } from "./forms/BookingForm/BookingForm";
 
 export const fetchCurrentUser = async():Promise<UserType>=>{

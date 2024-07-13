@@ -3,7 +3,7 @@ import DetailsSection from "./DetailsSection";
 import TypesSection from "./TypeSection";
 import Facilities from "./Facilities";
 import GuestsSection from "./GuestsSection";
-import { HotelType } from "../../../../backend/src/shared/types";
+import { HotelType } from "../../Types"; 
 import { useEffect } from "react";
 import ImagesSection from "./ImagesSection";
 
